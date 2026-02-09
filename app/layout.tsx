@@ -22,7 +22,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://decabaret.com'
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Decabaret | Club & Bar - Live Cabaret, Craft Cocktails & Dark Glamour',
+    default: 'Decabaret | Club & Bar - Live Performance, Craft Cocktails & Dark Glamour',
     template: '%s | Decabaret Club & Bar',
   },
   description:
@@ -31,18 +31,18 @@ export const metadata: Metadata = {
     'Decabaret',
     'cabaret club',
     'cocktail bar',
-    'nightlife NYC',
+    'nightlife Lagos',
     'live performance bar',
-    'New York nightclub',
-    'VIP lounge NYC',
+    'Lagos nightclub',
+    'VIP lounge Lagos',
     'craft cocktails',
-    'burlesque',
+    'kitchen',
     'speakeasy bar',
     'live music venue',
-    'Downtown Arts District bar',
+    'Lagos City Arts District bar',
     'upscale nightlife',
-    'cabaret show New York',
-    'luxury bar NYC',
+    'cabaret show Lagos',
+    'luxury bar Lagos',
   ],
   authors: [{ name: 'Decabaret Club & Bar' }],
   creator: 'Decabaret',
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     siteName: 'Decabaret Club & Bar',
     title: 'Decabaret | Where Cabaret Meets the Night',
     description:
-      'An immersive nightlife experience blending live cabaret performances, expertly crafted cocktails, and dark glamour. Reserve your evening at Decabaret in NYC.',
+      'An immersive nightlife experience blending live cabaret performances, expertly crafted cocktails, and dark glamour. Reserve your evening at Decabaret in Lagos.',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=1200&auto=format&fit=crop',
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Decabaret | Where Cabaret Meets the Night',
     description:
-      'Live cabaret performances, craft cocktails & dark glamour in NYC. An evening beyond ordinary.',
+      'Live cabaret performances, craft cocktails & dark glamour in Lagos. An evening beyond ordinary.',
     images: ['https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=1200&auto=format&fit=crop'],
     creator: '@decabaret',
     site: '@decabaret',
