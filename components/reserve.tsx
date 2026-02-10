@@ -184,7 +184,9 @@ export function Reserve() {
             </form>
           </div>
         </div>
-      </div>
+        <br/>
+      <div style={{width: "100%", background: "linear-gradient(90deg, transparent, var(--gold), transparent)"}}><iframe width="100%" height="600" frameBorder="0" scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%20Decabaret%20Palace%20Road,%20Okota,%20Oshodi-Isolo%20Local%20Government+(Decabaret%20Club%20and%20Bar)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/de/evolkerung-auf-einer-karte-berechnen/">Decabaret Club and Bar</a></iframe></div>
+    </div>
     </section>
   )
 }

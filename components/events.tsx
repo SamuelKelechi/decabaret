@@ -10,6 +10,7 @@ const events = [
     description: "Live performance by Jakarta, special Champagne, Dorime and other special performances.",
     time: "7 PM - Till Dawn",
     tag: "Special Event",
+    avatar: "/event.png",
   },
   // {
   //   date: "FEB 21",
@@ -143,7 +144,8 @@ export function Events() {
                     className="font-body text-sm tracking-wider"
                     style={{ color: "hsl(var(--muted-foreground))" }}
                   >
-                    {event.time}
+                    {/* {event.time} */}
+                    <img src={event.avatar} style={{width:"150px"}}/>
                   </span>
                   <span
                     className="hidden font-body text-xs tracking-[0.2em] uppercase opacity-0 transition-opacity duration-300 group-hover:opacity-100 md:inline"

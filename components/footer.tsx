@@ -93,7 +93,7 @@ export function Footer() {
                 <a href="tel:+12125553322" style={{ color: "var(--gold)" }} className="transition-opacity hover:opacity-80">+2348134607241</a>
               </p>
               <p>
-                <a href="mailto:hello@decabaret.com" style={{ color: "var(--gold)" }} className="transition-opacity hover:opacity-80">hello@decabaret.com</a>
+                <a href="mailto:hello@decabaret.com" style={{ color: "var(--gold)" }} className="transition-opacity hover:opacity-80">decabaretlounge@gmail.com</a>
               </p>
             </address>
           </div>
@@ -104,10 +104,10 @@ export function Footer() {
           <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
               <span className="font-body text-sm" style={{ color: "hsl(var(--muted-foreground))" }}>
-                <span style={{ color: "var(--gold)" }}>Monday - Thursday:</span> Opens 7PM
+                <span style={{ color: "var(--gold)" }}>Mon. - Sun.:</span> Bar Opens 24 hours
               </span>
               <span className="font-body text-sm" style={{ color: "hsl(var(--muted-foreground))" }}>
-                <span style={{ color: "var(--gold)" }}>Friday - Sunday:</span> 8 PM - Till Dawn
+                <span style={{ color: "var(--gold)" }}>Wed. Frid. Sat. & Sun.:</span> Club Doors Open 8pm
               </span>
             </div>
             <p className="font-body text-xs tracking-wider" style={{ color: "hsl(var(--muted-foreground))" }}>
