@@ -60,9 +60,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: '/',
     siteName: 'Decabaret Club & Bar',
-    title: 'Decabaret | Where Cabaret Meets the Night',
+    title: 'Decabaret | Club & Bar - Live Performance, Special Cocktails & Dark Glamour',
     description:
-      'An immersive nightlife experience blending live cabaret performances, expertly crafted cocktails, and dark glamour. Reserve your evening at Decabaret in Lagos.',
+      'An immersive nightlife experience blending live performances, expertly crafted cocktails, and glamour. Reserve your evening at Decabaret Club and Bar in Lagos.',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=1200&auto=format&fit=crop',
