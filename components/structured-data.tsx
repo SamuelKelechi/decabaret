@@ -8,40 +8,40 @@ export function StructuredData() {
     name: "Decabaret Club & Bar",
     alternateName: "Decabaret",
     description:
-      "An upscale cabaret club and cocktail bar in New York City featuring live performances, craft cocktails, VIP lounges, and an unforgettable nightlife experience.",
+      "An upscale cabaret club and cocktail bar in Lagos City featuring live performances, craft cocktails, VIP lounges, and an unforgettable nightlife experience.",
     url: siteUrl,
-    telephone: "+1-212-555-3322",
+    telephone: "+2348134607241",
     email: "hello@decabaret.com",
     image: "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=1200&auto=format&fit=crop",
     logo: "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=1200&auto=format&fit=crop",
-    priceRange: "$$$",
-    currenciesAccepted: "USD",
+    priceRange: "₦",
+    currenciesAccepted: "NGN",
     paymentAccepted: "Cash, Credit Card",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "42 Velvet Lane",
-      addressLocality: "New York",
-      addressRegion: "NY",
-      postalCode: "10013",
-      addressCountry: "US",
+      streetAddress: "154 Agor Palace Way, Okota",
+      addressLocality: "Oshodi-Isolo Local Government",
+      addressRegion: "Lagos",
+      postalCode: "100263",
+      addressCountry: "Nigeria",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 40.7195,
-      longitude: -74.0037,
+      latitude: 6.514193,
+      longitude: 3.308678,
     },
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Wednesday", "Thursday"],
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday"],
         opens: "19:00",
-        closes: "01:00",
+        closes: "Till Dawn",
       },
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Friday", "Saturday"],
-        opens: "20:00",
-        closes: "04:00",
+        dayOfWeek: ["Friday", "Saturday", "Sunday"],
+        opens: "19:00",
+        closes: "Till Mama Call",
       },
     ],
     sameAs: [
@@ -63,7 +63,7 @@ export function StructuredData() {
         "@type": "Review",
         author: {
           "@type": "Person",
-          name: "Isabelle R.",
+          name: "Kole Sunday",
         },
         reviewBody:
           "Walking into Decabaret feels like stepping through a portal into another era. The performances are mesmerizing, the cocktails are art, and the atmosphere is simply unmatched.",
@@ -73,15 +73,15 @@ export function StructuredData() {
           bestRating: "5",
         },
         publisher: {
-          "@type": "Organization",
-          name: "Vogue Night Life",
+          "@type": "Person",
+          name: "Big Sam",
         },
       },
       {
         "@type": "Review",
         author: {
           "@type": "Person",
-          name: "Marcus Chen",
+          name: "Chidinma",
         },
         reviewBody:
           "The best-kept secret in the city. Every visit is different, every night is unforgettable. This is what nightlife should feel like.",
@@ -91,8 +91,8 @@ export function StructuredData() {
           bestRating: "5",
         },
         publisher: {
-          "@type": "Organization",
-          name: "City Pulse Magazine",
+          "@type": "person",
+          name: "Olu Mile2",
         },
       },
     ],
@@ -104,7 +104,7 @@ export function StructuredData() {
     name: "Decabaret Club & Bar",
     url: siteUrl,
     description:
-      "Decabaret is an upscale cabaret club and cocktail bar in New York City.",
+      "Decabaret is an upscale cabaret club and cocktail bar in Lagos City.",
     potentialAction: {
       "@type": "ReserveAction",
       target: {
@@ -123,17 +123,17 @@ export function StructuredData() {
     "@type": "EventSeries",
     name: "Decabaret Live Events",
     description:
-      "Weekly live performances, cabaret shows, and themed nights at Decabaret Club & Bar in NYC.",
+      "Weekly live performances, cabaret shows, and themed nights at Decabaret Club & Bar in Lagos.",
     location: {
       "@type": "Place",
       name: "Decabaret Club & Bar",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "42 Velvet Lane",
-        addressLocality: "New York",
-        addressRegion: "NY",
-        postalCode: "10013",
-        addressCountry: "US",
+        streetAddress: "154 Agor Palace Way, Okota",
+        addressLocality: "Oshodi Isolo",
+        addressRegion: "Lagos",
+        postalCode: "100263",
+        addressCountry: "Nigeria",
       },
     },
     organizer: {

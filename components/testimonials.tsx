@@ -5,18 +5,18 @@ import { useEffect, useRef } from "react"
 const testimonials = [
   {
     quote: "Walking into Decabaret feels like stepping through a portal into another era. The performances are mesmerizing, the cocktails are art, and the atmosphere is simply unmatched.",
-    author: "Isabelle R.",
-    title: "Vogue Night Life",
+    author: "Big Sam",
+    title: "Night Baller",
   },
   {
-    quote: "The best-kept secret in the city. Every visit is different, every night is unforgettable. This is what nightlife should feel like.",
-    author: "Marcus Chen",
-    title: "City Pulse Magazine",
+    quote: "The best-kept night life in the city. Every visit is different, every night is unforgettable. This is what nightlife should feel like.",
+    author: "Chidinma",
+    title: "Regular Attendee",
   },
   {
-    quote: "From the moment you part the velvet curtains, you know this is somewhere special. Decabaret has redefined what a night out means.",
-    author: "Elena Vasquez",
-    title: "The Night Standard",
+    quote: "From the moment you walk in, you know this is somewhere special. Decabaret has redefined what a night out means.",
+    author: "Jakarta",
+    title: "Special Guest",
   },
 ]
 

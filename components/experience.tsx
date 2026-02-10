@@ -17,7 +17,7 @@ const features = [
     ),
   },
   {
-    title: "Craft Cocktails",
+    title: "Special Cocktails",
     description:
       "Our mixologists conjure elixirs that are as visually stunning as they are intoxicating. Each drink tells a story.",
     icon: (
@@ -29,9 +29,9 @@ const features = [
     ),
   },
   {
-    title: "VIP Lounges",
+    title: "VIP Lounge",
     description:
-      "Exclusive private spaces draped in velvet and bathed in candlelight. An intimate escape within the spectacle.",
+      "Exclusive VIP lounge draped in velvet and bathed in candlelight. An intimate escape within the spectacle.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2v8" />
@@ -85,12 +85,12 @@ export function Experience() {
             className="font-body text-sm tracking-[0.4em] uppercase"
             style={{ color: "var(--gold)" }}
           >
-            The Experience
+            Experience The
           </span>
           <h2 className="section-title mt-4 font-display text-balance" style={{ color: "var(--cream)" }}>
             Three Pillars of
             <span className="italic" style={{ color: "var(--gold)" }}>
-              {" "}Indulgence
+              {" "}Decabaret
             </span>
           </h2>
           <div className="mx-auto mt-6 gold-line w-20" />
@@ -145,7 +145,7 @@ export function Experience() {
         <div className="reveal mt-20 md:mt-28">
           <div className="img-zoom relative aspect-[21/9] w-full overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1504704911898-68304a7d2571?q=80&w=2070&auto=format&fit=crop"
+              src="/stage.png"
               alt="Cabaret performance on stage at Decabaret"
               fill
               className="object-cover"

@@ -22,7 +22,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://decabaret.com'
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Decabaret | Club & Bar - Live Performance, Craft Cocktails & Dark Glamour',
+    default: 'Decabaret | Club & Bar - Live Performance, Special Cocktails & Dark Glamour',
     template: '%s | Decabaret Club & Bar',
   },
   description:

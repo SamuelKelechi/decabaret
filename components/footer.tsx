@@ -3,7 +3,7 @@ import Link from "next/link"
 const socialLinks = [
   { label: "Instagram", href: "#" },
   { label: "Facebook", href: "#" },
-  { label: "TikTok", href: "#" },
+  // { label: "TikTok", href: "#" },
 ]
 
 const quickLinks = [
@@ -31,7 +31,11 @@ export function Footer() {
               className="font-display text-3xl tracking-widest uppercase"
               style={{ color: "var(--gold)" }}
             >
-              Decabaret
+               <img
+                        src="/icon.png"
+                        alt="Decabaret Logo"
+                        style={{width:"120px"}}
+                />
             </span>
             <p className="mt-4 max-w-xs font-body text-base leading-relaxed" style={{ color: "hsl(var(--muted-foreground))" }}>
               Where the night becomes a performance and every guest is part of the show.
@@ -82,11 +86,11 @@ export function Footer() {
               Visit Us
             </h4>
             <address className="flex flex-col gap-3 font-body text-base leading-relaxed not-italic" style={{ color: "hsl(var(--muted-foreground))" }}>
-              <p>42 Velvet Lane</p>
-              <p>Downtown Arts District</p>
-              <p>New York, NY 10013</p>
+              <p>154 Agor Palace Way</p>
+              <p>Oshodi-Isolo Local Government</p>
+              <p>Lagos State, Nigeria</p>
               <p className="mt-2">
-                <a href="tel:+12125553322" style={{ color: "var(--gold)" }} className="transition-opacity hover:opacity-80">+1 (212) 555-DECA</a>
+                <a href="tel:+12125553322" style={{ color: "var(--gold)" }} className="transition-opacity hover:opacity-80">+2348134607241</a>
               </p>
               <p>
                 <a href="mailto:hello@decabaret.com" style={{ color: "var(--gold)" }} className="transition-opacity hover:opacity-80">hello@decabaret.com</a>
@@ -100,13 +104,10 @@ export function Footer() {
           <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
               <span className="font-body text-sm" style={{ color: "hsl(var(--muted-foreground))" }}>
-                <span style={{ color: "var(--gold)" }}>Wed - Thu:</span> 7 PM - 1 AM
+                <span style={{ color: "var(--gold)" }}>Monday - Thursday:</span> Opens 7PM
               </span>
               <span className="font-body text-sm" style={{ color: "hsl(var(--muted-foreground))" }}>
-                <span style={{ color: "var(--gold)" }}>Fri - Sat:</span> 8 PM - 4 AM
-              </span>
-              <span className="font-body text-sm" style={{ color: "hsl(var(--muted-foreground))" }}>
-                <span style={{ color: "var(--gold)" }}>Sun - Tue:</span> Closed
+                <span style={{ color: "var(--gold)" }}>Friday - Sunday:</span> 8 PM - Till Dawn
               </span>
             </div>
             <p className="font-body text-xs tracking-wider" style={{ color: "hsl(var(--muted-foreground))" }}>
@@ -118,7 +119,7 @@ export function Footer() {
         {/* Large decorative brand */}
         <div className="mt-12 overflow-hidden text-center">
           <span
-            className="font-display text-[8vw] font-bold leading-none tracking-widest uppercase opacity-5"
+            className="font-display text-[5vw] font-bold leading-none tracking-widest uppercase opacity-6"
             style={{ color: "var(--gold)" }}
             aria-hidden="true"
           >

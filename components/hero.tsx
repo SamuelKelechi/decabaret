@@ -63,9 +63,10 @@ export function Hero() {
             opacity: loaded ? undefined : 0,
             animationDelay: "1.7s",
             animationFillMode: "forwards",
+            fontWeight: "bolder"
           }}
         >
-          Where Cabaret Meets the Night
+          DECABARET CLUB & BAR
         </p>
 
         {/* Title */}
@@ -78,7 +79,7 @@ export function Hero() {
             animationFillMode: "forwards",
           }}
         >
-          <span className="block">An Evening</span>
+          <span className="block">An Experience</span>
           <span className="block italic" style={{ color: "var(--gold)" }}>
             Beyond Ordinary
           </span>
@@ -88,7 +89,7 @@ export function Hero() {
         <p
           className={`mx-auto mt-6 max-w-xl font-body text-lg leading-relaxed md:mt-8 md:text-xl ${loaded ? "animate-hero-text" : ""}`}
           style={{
-            color: "hsl(var(--muted-foreground))",
+            color: "white",
             opacity: loaded ? undefined : 0,
             animationDelay: "2.3s",
             animationFillMode: "forwards",
@@ -119,7 +120,7 @@ export function Hero() {
           </a>
           <a
             href="#experience"
-            className="w-full border px-10 py-4 text-center font-body text-sm tracking-[0.25em] uppercase transition-all duration-300 hover:bg-[var(--gold)] hover:text-[hsl(0,0%,4%)] sm:w-auto"
+            className="w-full border px-10 py-4 text-center font-body text-sm tracking-[0.25em] uppercase transition-all duration-300 hover:bg-[var(--gold)] hover:text-[hsl(0, 0%, 0%)] sm:w-auto"
             style={{
               borderColor: "var(--gold)",
               color: "var(--gold)",
