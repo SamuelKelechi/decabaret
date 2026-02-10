@@ -95,8 +95,7 @@ export function Hero() {
             animationFillMode: "forwards",
           }}
         >
-          Immerse yourself in an intoxicating blend of live performance, craft
-          cocktails, and an atmosphere that defies the ordinary.
+          featuring live performances, special cocktails, VIP lounge, and an unforgettable nightlife experience.
         </p>
 
         {/* CTA */}

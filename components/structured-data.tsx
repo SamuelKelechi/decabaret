@@ -8,7 +8,7 @@ export function StructuredData() {
     name: "Decabaret Club & Bar",
     alternateName: "Decabaret",
     description:
-      "An upscale cabaret club and cocktail bar in Lagos City featuring live performances, craft cocktails, VIP lounges, and an unforgettable nightlife experience.",
+      "An upscale cabaret club and bar in Lagos City featuring live performances, special cocktails, VIP lounges, and an unforgettable nightlife experience.",
     url: siteUrl,
     telephone: "+2348134607241",
     email: "hello@decabaret.com",

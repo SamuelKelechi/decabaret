@@ -28,6 +28,12 @@ const galleryImages = [
     span: "md:col-span-2",
     aspect: "aspect-[21/9]",
   },
+    {
+    src: "/icon.png",
+    alt: "",
+    span: "",
+    aspect: "aspect-[4/3]",
+  },
 ]
 
 export function Gallery() {
