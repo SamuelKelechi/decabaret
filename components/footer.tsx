@@ -1,8 +1,8 @@
 import Link from "next/link"
 
 const socialLinks = [
-  { label: "Instagram", href: "#" },
-  { label: "Facebook", href: "#" },
+  { label: "Instagram", href: "https://www.instagram.com/de_cabaret_lounge" },
+  { label: "Facebook", href: "https://www.facebook.com/decabaretlounge" },
   // { label: "TikTok", href: "#" },
 ]
 
@@ -70,6 +70,7 @@ export function Footer() {
                   href={link.href}
                   className="font-body text-base tracking-wide transition-colors duration-300 hover:text-[var(--gold)]"
                   style={{ color: "hsl(var(--muted-foreground))" }}
+                  target="blank"
                 >
                   {link.label}
                 </Link>
